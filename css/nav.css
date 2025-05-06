@@ -1,0 +1,14 @@
+header {
+    background-color: #BAD7DF;
+    padding: 1%;
+    display: flex;
+    justify-content: flex-end;
+    border: 3px solid #809CAC;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
