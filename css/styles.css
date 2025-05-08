@@ -38,6 +38,8 @@ h1 {
     margin-left: 2%;
 }
 
-.tons {
-    
+.but {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
 }
