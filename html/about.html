@@ -10,18 +10,24 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <a href="/html/index.html">Daisy Jane Vang</a>
-                <a href="/html/about.html">About Me</a>
-                <a href="/html/contact.html">Contact Me</a>
-                <a href="/html/music.html">Music</a>
-                <a href="/html/portfolio.html">Portfolio</a>
-                <a href="/html/resume.html">Resume</a>
-                <a href="/html/web+programming.html">Web & Programming</a>
-                <a href="/html/writting.html">Writting</a>
+        <nav class="navbar">
+            <ul class="link">
+                <li><a href="/html/index.html">Home</a></li>
+                <li><a href="/html/about.html" aria-haspopup="true">About Me</a>
+                    <ul class="dropdown" aria-label="submenu">
+                        <li><a href="/html/music.html">Music</a></li>
+                        <li><a href="/html/resume.html">Resume</a></li>
+                    </ul>
+                </li>
+                <li><a href="/html/contact.html">Contact Me</a></li>
+                <li><a href="/html/portfolio.html">Portfolio</a></li>
+                <li><a href="/html/web+programming.html">Web & Programming</a>
+                    <ul>
+                        <li><a href="/html/writting.html">Writting</a></li>
+                    </ul>
+                </li>
             </ul>
-        </nav>
+    </nav>
     </header>
 
     <section>
