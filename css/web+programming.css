@@ -2,3 +2,47 @@
     margin: 0%;
     padding: 0%;
 }
+
+.tops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tops h1 {
+    font-size: 70px;
+}
+
+.tops p {
+    width: 70%;
+    text-indent: 3%;
+}
+
+.webs  {
+    display: flex;
+    flex-direction: column;
+}
+
+.webs h2 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.webs h1 {
+    font-size: 30px;
+}
+
+.webs p {
+    width: 40%;
+}
+
+.tsw, .smw, .bg-calc {
+    display: flex;
+    margin-right: 3em;
+}
+
+.tsw p, .smw p, .bg-calc p {
+    width: 45%;
+    text-indent: 3%;
+}

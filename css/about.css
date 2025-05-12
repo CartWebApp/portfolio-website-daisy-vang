@@ -3,7 +3,49 @@
     padding: 0%;
 }
 
+h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
 .awards {
     background-color: #FFFCD1;
+    border: 3px solid #C2AC62;
+}
+
+.heads {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heads p {
+    width: 45%;
+    margin-top: 5em;
+    text-indent: 3%;
+}
+
+.heads img {
+    border: 3px solid #C2AC62;
+}
+
+.extrainfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.extrainfo p {
+    width: 45%;
+    text-indent: 3%;
+    margin-top: 5rem;
+}
+
+.extrainfo img {
     border: 3px solid #C2AC62;
 }

@@ -3,7 +3,34 @@
     padding: 0%;
 }
 
+h1 {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.journ p {
+    width: 45%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
 .top6 {
     background-color: #FFFCD1;
     border: 3px solid #C2AC62;
+    display: flex;
+    flex-direction: column;
+}
+
+.top1-3, .top4-6 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top6 h3 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
 }
