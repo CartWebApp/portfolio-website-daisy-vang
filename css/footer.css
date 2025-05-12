@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    background-color: #809cac;
+}
+
 p {
     font-size: 20px;
 }
