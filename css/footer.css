@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.info a:hover {
     background-color: #809cac;
     border-radius: 3%;
 }
