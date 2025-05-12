@@ -36,6 +36,8 @@ h1 {
 
 .sec1 {
     margin-left: 2%;
+    display: flex;
+    flex-direction: row;
 }
 
 .but {
