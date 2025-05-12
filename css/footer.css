@@ -19,6 +19,7 @@ a {
 
 a:hover {
     background-color: #809cac;
+    border-radius: 3%;
 }
 
 p {
