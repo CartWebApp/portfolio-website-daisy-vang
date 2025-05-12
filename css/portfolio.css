@@ -61,3 +61,7 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+.heads p {
+    font-size: 15px;
+}
