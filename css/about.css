@@ -15,11 +15,6 @@ h2 {
     justify-content: center;
 }
 
-.awards {
-    background-color: #FFFCD1;
-    border: 3px solid #C2AC62;
-}
-
 .heads {
     display: flex;
     justify-content: space-around;
@@ -50,7 +45,3 @@ h2 {
     border: 3px solid #C2AC62;
 }
 
-.awards div {
-    display: flex;
-    justify-content: space-around;
-}
