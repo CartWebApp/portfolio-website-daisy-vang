@@ -10,3 +10,7 @@ h2 {
 section h1 {
     font-size: 40px;
 }
+
+body p {
+    font-size: 15px;
+}
