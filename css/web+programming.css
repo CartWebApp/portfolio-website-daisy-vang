@@ -50,3 +50,12 @@
 .site div {
     margin-left: 3em;
 }
+
+.site h1 {
+    font-size: 40px;
+}
+
+.site p {
+    font-size: 20px;
+    text-indent: 3%;
+}
