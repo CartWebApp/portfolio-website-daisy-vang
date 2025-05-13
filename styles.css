@@ -21,11 +21,11 @@ button:hover {
 }
 
 h1 {
-    font-size: 40vh;
+    font-size: 40px;
 }
 
 .p, .p2 {
-    font-size: 25vh;
+    font-size: 25px;
     width: 60%;
 }
 
@@ -55,5 +55,5 @@ a {
 
 .me {
     margin-right: 15rem;
-    border: 10vh solid #dac377;
+    border: 10px solid #dac377;
 }
