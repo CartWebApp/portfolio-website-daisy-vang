@@ -33,6 +33,7 @@ h2 {
 
 .journ {
     display: flex;
+    justify-content: space-around;
 }
 
 .journ h2 {
