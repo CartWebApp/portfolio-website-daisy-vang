@@ -28,9 +28,13 @@ a {
 
 .heads {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
     text-align: center;
+}
+
+.heads div {
+    display: flex;
+    flex-direction: column;
 }
 
 .circleinfo {
