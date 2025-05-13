@@ -42,3 +42,12 @@ h2 {
 .journ h2 {
     font-size: 20px;
 }
+
+.journ div {
+    width: 45%;
+    margin-left: 3%;
+}
+
+.journ p {
+    text-indent: 3%;
+}
