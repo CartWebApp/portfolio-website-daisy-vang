@@ -49,3 +49,8 @@ h2 {
     background-color: #FFFCD1;
     border: 3px solid #C2AC62;
 }
+
+.mySlides-fade {
+    display: flex;
+    justify-content: space-around;
+}
