@@ -37,7 +37,7 @@ h2 {
 }
 
 .journ h2 {
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .journ div {
@@ -47,5 +47,9 @@ h2 {
 
 .journ p {
     text-indent: 3%;
-    width: 55%;
+    width: 60%;
+}
+
+.journ img {
+    border: 10px solid #C2AC62;
 }
