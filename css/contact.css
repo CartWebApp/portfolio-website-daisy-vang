@@ -3,6 +3,12 @@
     padding: 0%;
 }
 
+.ever {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
 h1 {
     font-size: 70px;
     display: flex;
@@ -19,7 +25,36 @@ h1 {
     margin-left: 3em;
 }
 
-.names {
+.names, .em, .oop {
     display: flex;
     flex-direction: row;
+}
+
+.img1 {
+    transform: scaleX(-1);
+}
+
+.but1 {
+    background-color: red;
+    border: 2px solid darkred;
+}
+
+.but2 {
+    background-color: rgb(37, 211, 37);
+    border: 2px solid darkgreen;
+}
+
+.but1, .but2 {
+    border-radius: 3em;
+    padding: 1em;
+}
+
+.but1:hover {
+    cursor: pointer;
+    background-color: rgb(202, 36, 36);
+}
+
+.but2:hover {
+    cursor: pointer;
+    background-color: rgb(24, 162, 24);
 }

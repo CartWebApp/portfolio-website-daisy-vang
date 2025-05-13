@@ -1,6 +1,6 @@
 footer {
-    background-color: #CA8EFF;
-    border: 3px solid #A554A2;
+    background-color: #aa90c1;
+    border: 3px solid #844782;
     width: 100;
     bottom: 0;
 }
@@ -59,6 +59,6 @@ h4 {
 
 hr {
     display: flex;
-    background-color: #CA8EFF;
-    border: 1px solid #A554A2;
+    background-color: #8a6b9d;
+    border: 1px solid #8a6b9d;
 }
