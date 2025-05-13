@@ -27,8 +27,9 @@ h2 {
 .top1-3, .top4-6 {
     display: flex;
     justify-content: space-around;
-    margin-left: 8em;
+    margin-left: 10em;
     align-self: center;
+    align-items: center;
 }
 
 .top6 h3 {
