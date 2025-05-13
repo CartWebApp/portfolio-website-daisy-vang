@@ -57,3 +57,7 @@ a {
     margin-right: 15rem;
     border: 10px solid #dac377;
 }
+
+.bot img {
+    position: absolute;
+}
