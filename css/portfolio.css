@@ -34,7 +34,6 @@ a {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background-color: rgb(255, 208, 255);
 }
 
 .heads div {
@@ -44,6 +43,7 @@ a {
 
 .circleinfo {
     margin-top: 4rem;
+    background-color: #ffd153;
 }
 
 .circle1 a:hover {
