@@ -45,7 +45,7 @@ h1 {
 .but {
     display: flex;
     justify-content: flex-end;
-    margin-right: 18em;
+    margin-right: 1em;
 }
 
 a {
