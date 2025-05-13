@@ -25,6 +25,8 @@ h2 {
 }
 
 .top1-3, .top4-6 {
+    display: flex;
+    justify-content: space-around;
 }
 
 .top6 h3 {
