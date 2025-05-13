@@ -60,10 +60,9 @@ a {
 
 .bot img {
     position: relative;
-    z-index: -1;
 }
 
 .bot button {
     position: absolute;
-    z-index: 1;
+    bottom: 3em;
 }
