@@ -7,6 +7,11 @@ body {
     background-color: rgb(247, 247, 247);
 }
 
+.tippy {
+    display: flex;
+    flex-direction: row;
+}
+
 h1 {
     font-size: 40px;
     display: flex;
