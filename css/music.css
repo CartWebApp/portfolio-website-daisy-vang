@@ -39,3 +39,6 @@ h2 {
     display: flex;
 }
 
+.journ h2 {
+    font-size: 20px;
+}
