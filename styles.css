@@ -59,5 +59,9 @@ a {
 }
 
 .bot img {
-    z-index: -1;
+    position: relative;
+}
+
+.bot button {
+    position: absolute;
 }
