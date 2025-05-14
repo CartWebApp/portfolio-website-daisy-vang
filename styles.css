@@ -57,3 +57,10 @@ a {
     margin-right: 15rem;
     border: 10px solid #dac377;
 }
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
