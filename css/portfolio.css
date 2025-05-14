@@ -77,7 +77,7 @@ h2 {
 
 .pas {
     position: absolute;
-    width: 30%;
+    width: 20%;
     left: 50%;
     transform: translateX(-50%);
 }
