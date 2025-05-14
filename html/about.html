@@ -42,15 +42,18 @@
 
     <section class="heads">
         <p>My name is Daisy Jane Vang, and I'm a high school student with a dream of becoming a nurse practitioner. Becoming a nurse practitioner wasn't always my plan. As a child, I was interested in many different careers. In 1st through 3rd grade, I dreamed of being a marine biologist because of my love for orcas (killer whales). But there was a slight problem-I was terrified of anything that moved toward me! From 4th to 6th grade, I wanted to become a YouTuber alongside my younger sister and cousins. It seemed like a fun idea, but realistically, I knew it could be a financial challenge. By 7th grade, I started thinking more seriously about my future. I realized I wanted to help people-maybe even save lives. That led me to consider becoming a doctor. Although I wouldn't mind the hard work, the years of schooling didn't appeal to me. So, I looked into nursing. I liked the idea but wanted a bit more responsibility and knowledge than a traditional nurse. After a year of thinking and exploring my options throughout 8th grade, I made my decision: I want to become a nurse practitioner. To me, it's the perfect balance-where I can both care for others and continue learning at a higher level.</p>
-           <div class="slideshow-container">
+        <img src="/img/me.png" alt="me" width="20%" height="20%">
+    </section>
+
+    <div class="slideshow-container">
     <div class="mySlides fade">
-      <img src="/img/me.png" alt="Image 1" width="20%" height="20%">
+      <img src="/img/me.png" alt="Image 1">
     </div>
     <div class="mySlides fade">
-      <img src="/img/baby2.png" alt="Image 2" width="20%" height="20%">
+      <img src="/img/baby2.png" alt="Image 2">
     </div>
     <div class="mySlides fade">
-      <img src="/img/baby-1.png" alt="Image 3" width="20%" height="20%">
+      <img src="/img/baby-1.png" alt="Image 3">
     </div>
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -61,9 +64,6 @@
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
-    </section>
-
- 
 
     <br>
 
@@ -155,47 +155,6 @@
             <br>
     </footer>
 
-    <script>
-        let slideIndex = 0;
-
-function showSlides() {
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-
-  if (slideIndex >= slides.length) {
-    slideIndex = 0;
-  }
-
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-
-  for (let i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-
-  slides[slideIndex].style.display = "block";
-  dots[slideIndex].className += " active";
-  slideIndex++;
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
-}
-
-function plusSlides(n) {
-  slideIndex += n;
-  if (slideIndex >= document.getElementsByClassName("mySlides").length) {
-    slideIndex = 0;
-  } else if (slideIndex < 0) {
-    slideIndex = document.getElementsByClassName("mySlides").length - 1;
-  }
-  showSlides();
-}
-
-function currentSlide(n) {
-  slideIndex = n - 1;
-  showSlides();
-}
-
-showSlides(); // Initial call to start the slideshow
-    </script>
+    
 </body>
 </html>
