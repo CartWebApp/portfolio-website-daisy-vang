@@ -79,6 +79,6 @@ h2 {
     position: absolute;
     width: 20%;
     left: 50%;
-    top: 10%;
+    top: 30%;
     transform: translateX(-50%);
 }
