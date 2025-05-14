@@ -26,8 +26,10 @@ h2 {
 
 .top1-3, .top4-6 {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center; 
+    justify-content: space-around;
+    margin-left: 10em;
+    align-self: center;
+    align-items: center;
 }
 
 .top6 h3 {
